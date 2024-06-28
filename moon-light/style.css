@@ -14,6 +14,15 @@ body {
     background: linear-gradient(#2b1055, #7597de);
 }
 
+::-webkit-scrollbar {
+    background: linear-gradient(#6441a5, #2a0845);
+    width: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#360033, #0b8793);
+}
+
 header {
     position: absolute;
     top: 0;
@@ -51,6 +60,7 @@ header ul li a {
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
+    transition: 0.4s ease-out;
 }
 
 header ul li a:hover,
